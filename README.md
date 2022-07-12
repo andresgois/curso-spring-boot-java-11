@@ -4,6 +4,7 @@
 
 
 ## Tecnologias utilizadas
+
 <div style="display: inline_block">
   <img align="center" alt="Spring" src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" />
   <img align="center" alt="MySql" src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" />
@@ -12,6 +13,6 @@
 </div>
   
 ## Depedencias
-[Spring JPA](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa)
-[Banco H2](https://mvnrepository.com/artifact/com.h2database/h2)
+- [Spring JPA](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa)
+- [Banco H2](https://mvnrepository.com/artifact/com.h2database/h2)
 
