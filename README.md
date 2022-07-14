@@ -27,7 +27,7 @@
     - provision
 ## Banco Postgres
 - Banco: springboot-course
-- docker run -d --name spring-postgresql -p 5432:5432 -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=1234567 -e - POSTGRES_DB=springboot-course -v /custom/mount:/var/lib/postgresql/data postgres
+- docker run -d --name spring-postgresql -p 5432:5432 -e POSTGRES_PASSWORD=1234567 -e POSTGRES_DB=springboot-course postgres:12.11
 - docker exec -it spring-postgresql bash
 - psql -h localhost -U postgres -W
 - \l
