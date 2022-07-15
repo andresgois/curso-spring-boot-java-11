@@ -1,17 +1,26 @@
 
 # Projeto Spring Java
 
-
+## Projeto web services com Spring Boot e JPA / Hibernate
 
 ## Tecnologias utilizadas
 
 <div style="display: inline_block">
   <img align="center" alt="Spring" src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" />
-  <img align="center" alt="MySql" src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img align="center" alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
   <img align="center" alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
   <img align="center" alt="Heroku" src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" />
+  <img align="center" alt="GIT" src="https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white" />
+  <!-- <img width="64" style="color:#fff; background-color: #fff; margin: 5px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original-wordmark.svg" />-->
 </div>
 
+## Schema do Banco
+
+![Schema](./assets/schemadb.png)
+
+## Domain model
+
+![Domain](./assets/DomainModel.png)
 
 ## Heroku
 - [Heroku](https://www.heroku.com/#)
@@ -352,6 +361,11 @@ heroku git:remote -a java-spring-coursesb
 git add .
 git commit -am "make it better"
 git push heroku master
+//ou
+git push heroku main
+// caso aconteça algum erro
+heroku buildpacks:set heroku/java
+git push heroku main
 ```
 
 ## Definir variáveis de ambiente
@@ -360,6 +374,11 @@ git push heroku master
 - Config Vars
 - Colocar as chaves e valores para as variáveis
 
+## Abrir a aplicação
+- No dashboard
+- clicar em **Open app**
+- 
+
 ## Error
 - *failed to push some refs to*
 
@@ -367,4 +386,4 @@ git push heroku master
 ## Depedencias
 - [Spring JPA](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa)
 - [Banco H2](https://mvnrepository.com/artifact/com.h2database/h2)
-
+- [Repositório oficial do curso](https://github.com/acenelio/workshop-springboot2-jpa)
