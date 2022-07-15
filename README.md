@@ -354,6 +354,16 @@ git commit -am "make it better"
 git push heroku master
 ```
 
+## Definir variáveis de ambiente
+- No dashboard da heroku
+- Settings
+- Config Vars
+- Colocar as chaves e valores para as variáveis
+
+## Error
+- *failed to push some refs to*
+
+
 ## Depedencias
 - [Spring JPA](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa)
 - [Banco H2](https://mvnrepository.com/artifact/com.h2database/h2)
